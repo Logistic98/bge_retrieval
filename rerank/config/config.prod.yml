@@ -1,0 +1,22 @@
+app:
+  host: 0.0.0.0
+  port: 8089
+
+rerank:
+  models:
+    bge-reranker-v2-m3: /models/bge-reranker-v2-m3
+
+auth:
+  enabled: true
+  keys:
+    - sk-11111111111111111111111111111111
+    - sk-22222222222222222222222222222222
+
+logging:
+  level: INFO
+  console: true
+  file: true
+  file_path: logs/app.log
+  format: "%(asctime)s %(levelname)s %(message)s"
+  datefmt: "%Y-%m-%d %H:%M:%S"
+  stream: stdout

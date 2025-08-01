@@ -1,0 +1,7 @@
+__pycache__
+*.log
+.venv
+.idea
+.vscode
+models/bge-m3
+models/bge-reranker-v2-m3
